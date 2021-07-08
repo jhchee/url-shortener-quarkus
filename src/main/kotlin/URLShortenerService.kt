@@ -2,7 +2,7 @@ import javax.inject.Inject
 import javax.inject.Singleton
 
 @Singleton
-class URlShortenerService {
+class URLShortenerService {
 
     @Inject
     lateinit var repository: URLKeyMapRepository

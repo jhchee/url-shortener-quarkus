@@ -10,7 +10,7 @@ class URLShortenerController constructor(
     private val randomStringGenerator: RandomStringGenerator
 ){
     @Inject
-    lateinit var service: URlShortenerService
+    lateinit var service: URLShortenerService
 
     @ConfigProperty(name = "SERVER_BASE_URL")
     lateinit var serverlessBaseURL : String
